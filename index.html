@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Housing Strategy Projects</title>
+
+    <style>
+      body {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .llwp-map {
+        height: 500px;
+        width: 100%;
+        border: 1px solid black;
+      }
+    </style>
+
+    <link rel="stylesheet" href="main.1e1a968f.css" />
+    <script src="main.6257a0c2.js"></script>
+
+    <script src="./cgpv-main.js"></script>
+  </head>
+  <body>
+    <h3>National Housing Strategy Projects</h3>
+    <p>
+      If panel is enabled from the config you can <strong>click</strong> on a
+      feature on the map to view it's details in a panel
+    </p>
+
+    <div
+      id="mapWM"
+      class="llwp-map"
+      data-lang="en-CA"
+      data-config-url="./map-config.json"
+    ></div>
+
+    <script>
+      if (cgpv) {
+        cgpv.init(function () {});
+      }
+    </script>
+  </body>
+</html>

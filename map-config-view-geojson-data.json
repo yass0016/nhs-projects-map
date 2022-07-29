@@ -1,0 +1,6 @@
+{
+  "isOpen": false,
+  "geoJsonPath": "./nhs-projects.json",
+  "enablePanel": true,
+  "enableTooltip": true
+}

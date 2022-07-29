@@ -1,0 +1,27 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "view": {
+      "zoom": 4,
+      "center": [-100, 60],
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "id": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "layers": []
+  },
+  "theme": "dark",
+  "components": ["appbar", "navbar", "north-arrow"],
+  "corePackages": ["basemap-panel"],
+  "externalPackages": [
+    {
+      "name": "view-geojson-data",
+      "configUrl": "./map-config-view-geojson-data.json"
+    }
+  ],
+  "languages": ["en-CA", "fr-CA"],
+  "version": "1.0"
+}
